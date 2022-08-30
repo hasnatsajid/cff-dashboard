@@ -1,0 +1,94 @@
+.wrapper {
+  display: flex;
+
+  .sidebar {
+    width: 15%;
+    max-width: 15%;
+    // height: 100vh;
+    background: #fcfcfc;
+
+    .logo {
+      width: 75%;
+      margin: 2rem auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .sidebar-items {
+      .item {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+
+        p {
+          margin-left: 10px;
+          font-weight: 700;
+          font-size: 15.9715px;
+          margin: 20px 0 20px 1.2rem;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+
+  .main-section {
+    width: 85%;
+  }
+
+  .coverage-airstream {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 2rem 0;
+    }
+
+    .select-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 17.3px;
+
+      .headings {
+        font-weight: 700;
+      }
+
+      .items {
+        width: 90%;
+        margin: auto;
+
+        .headings {
+          margin: 2rem 0;
+        }
+
+        .item {
+          justify-content: space-between;
+          display: flex;
+
+          .title {
+            width: 40%;
+          }
+
+          .ant-row {
+            width: 50%;
+          }
+        }
+      }
+
+      .coverage {
+        // width: 20%;
+
+        & > div {
+          margin: 15px 0;
+        }
+      }
+
+      .limit {
+        width: 70%;
+      }
+    }
+  }
+}
